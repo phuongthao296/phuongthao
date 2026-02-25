@@ -26,7 +26,12 @@
   flex: 70%;
    background-color: lightgray;
 }
-.content
+.content iframe{
+  flex: 1;
+  border: none;
+  width: 100%;
+  height: 100℅;
+}
 .footer {
   flex: 10%;
    background-color: black;
