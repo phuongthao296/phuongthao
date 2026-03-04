@@ -4,11 +4,11 @@
 .container{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 50vh;
 }
 
 .header{
-  flex: 15%;
+  flex: 10%;
   background-color: gray;
 }
 
@@ -21,7 +21,7 @@
 
 .menu a{
   color: white;
-  padding: 15px 20px;
+  padding: 150px 200px;
   text-decoration: none;
 }
 
