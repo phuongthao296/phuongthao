@@ -10,7 +10,8 @@
 .header{
   flex: 15%;
   background-color: gray;
-  background: url (
+  background: url( "ChatGPT Image 08_33_25 4 thg 3, 2026.png") center/ 100℅;
+  aspect-ratio: 6/1;
 }
 
 .menu{
