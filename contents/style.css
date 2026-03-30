@@ -2,6 +2,7 @@
   font-family: Arial;
 }
 .container{
+  background-color: red;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -9,14 +10,14 @@
 
 .header{
   flex: 15%;
-  background-color: gray;
+  background-color: pink;
   background: url( "ChatGPT Image 08_33_25 4 thg 3, 2026.png") center/ 100℅;
   aspect-ratio: 6/1;
 }
 
 .menu{
   flex: 5%;
-  background-color: darkblue;
+  background-color: lightpink;
   display: flex;
   align-items: center;
 }
@@ -33,7 +34,7 @@
 
 .content{
   flex: 70%;
-  background-color: white;
+  background-color: lightred;
 }
 
 .content iframe{
