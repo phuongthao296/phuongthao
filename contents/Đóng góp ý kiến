@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="utf-8"
+      </head>
+      <body>        
+         <form action = "Bai7-NV3.html">
+          <title>Đóng góp ý kiến cho thư viện</title>
+          <ol>Thông tin về người góp ý </ol>
+          <label> Họ và tên:<input type="text" name ="txtTen"></label>
+          <label> Địa chỉ email:<input type="email" name ="emailTen"></label>
+          <ol>Đóng góp ý kiến</ol>
+          <label> Ý kiến đóng góp:<textarea name="txtComment" rows="6" cols="40"> </textarea></label>
+          <ol>The loai can bo sung them sach</ol>
+         <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br> 
+         <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
+         <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
+         <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
+         <input type="checkbox" name="chkLichSu"> Lịch sử <br>
+         <input type= "submit" name="cmd" value="Góp ý">
+        </form>
+      </body>
