@@ -3,7 +3,13 @@
     <meta charset="utf-8">
   </head>
     <body>
-       <strong> Cảm ơn bạn đã đóng góp ý kiến</strong>
-     <p> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới.</p>
-    </body>
+      <p id="kq"> </p>
+      <script>
+        let params = new URLSearchParams(window.location.search);
+        let ten = params.get("txtName");
+        let yk = params.get("txtYk);
+        document.getElementById("kq".innerHTML= "Cảm ơn bạn" + ten + "đã góp ý"
+        +"<br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>"
+         </script>
+      </body>
 </html>
